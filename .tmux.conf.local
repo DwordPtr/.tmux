@@ -231,8 +231,8 @@ set-option -g mouse on
 set -g default-terminal "screen-256color"
 
 #copy paste
-#bind -t vi-copy y copy-pipe "xclip -sel clip -i"
-
+bind -t vi-copy y copy-pipe "xclip -sel clip -i"
+set-window-option -g mode-keys vi
 
 # ------------------------------------------------------------------------------
 # this is the place to override or undo settings
