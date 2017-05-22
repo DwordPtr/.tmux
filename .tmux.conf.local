@@ -236,6 +236,8 @@ set-window-option -g mode-keys vi
 
 #disallow window rename
 set-option -g allow-rename off
+setw -g automatic-rename off  # rename window to reflect current program
+
 
 # ------------------------------------------------------------------------------
 # this is the place to override or undo settings
